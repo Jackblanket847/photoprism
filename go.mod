@@ -36,14 +36,14 @@ require (
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58
 	github.com/sevlyar/go-daemon v0.1.6
 	github.com/sirupsen/logrus v1.9.3
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/tensorflow/tensorflow v1.15.2
 	github.com/tidwall/gjson v1.17.1
 	github.com/ulule/deepcopier v0.0.0-20200430083143-45decc6639b6
 	github.com/urfave/cli v1.22.15
 	go4.org v0.0.0-20230225012048-214862532bf5 // indirect
-	golang.org/x/crypto v0.25.0
-	golang.org/x/net v0.27.0
+	golang.org/x/crypto v0.36.0
+	golang.org/x/net v0.38.0
 	gonum.org/v1/gonum v0.15.0
 	gopkg.in/photoprism/go-tz.v2 v2.1.3
 	gopkg.in/yaml.v2 v2.4.0
@@ -63,11 +63,9 @@ require github.com/chzyer/readline v1.5.1 // indirect
 require github.com/gabriel-vasile/mimetype v1.4.5
 
 require (
-	golang.org/x/sync v0.7.0
+	golang.org/x/sync v0.12.0
 	golang.org/x/time v0.5.0
 )
-
-require github.com/go-ldap/ldap/v3 v3.4.8
 
 require (
 	github.com/prometheus/client_golang v1.19.1
@@ -76,7 +74,7 @@ require (
 
 require github.com/dustinkirkland/golang-petname v0.0.0-20240428194347-eebcea082ee0
 
-require golang.org/x/text v0.16.0
+require golang.org/x/text v0.23.0
 
 require (
 	github.com/davidbyttow/govips/v2 v2.15.0
@@ -89,7 +87,6 @@ require (
 )
 
 require (
-	github.com/Azure/go-ntlmssp v0.0.0-20221128193559-754e69321358 // indirect
 	github.com/KyleBanks/depth v1.2.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/boombuler/barcode v1.0.1 // indirect
@@ -102,8 +99,7 @@ require (
 	github.com/dsoprea/go-logging v0.0.0-20200710184922-b02d349568dd // indirect
 	github.com/dsoprea/go-utility/v2 v2.0.0-20221003172846-a3e1774ef349 // indirect
 	github.com/gin-contrib/sse v0.1.0 // indirect
-	github.com/go-asn1-ber/asn1-ber v1.5.5 // indirect
-	github.com/go-jose/go-jose/v4 v4.0.2 // indirect
+	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.21.0 // indirect
@@ -143,10 +139,10 @@ require (
 	go.opentelemetry.io/otel/metric v1.28.0 // indirect
 	go.opentelemetry.io/otel/trace v1.28.0 // indirect
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
-	golang.org/x/oauth2 v0.21.0 // indirect
-	golang.org/x/sys v0.22.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/tools v0.23.0 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	google.golang.org/protobuf v1.36.7 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
@@ -166,6 +162,4 @@ require (
 	github.com/tidwall/pretty v1.2.1 // indirect
 )
 
-go 1.21
-
-toolchain go1.22.0
+go 1.23.0
